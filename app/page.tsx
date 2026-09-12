@@ -247,7 +247,7 @@ function Dashboard({ deals, servicios, asistencia }: any) {
 }
 
 function Card({ title, value, color }: any) {
-  const colorClasses = {
+  const colorClasses: any = {
     blue: 'bg-blue-500',
     green: 'bg-green-500',
     orange: 'bg-orange-500',
